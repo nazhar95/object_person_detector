@@ -4,6 +4,7 @@ import pandas as pd
 import cv2 as cv
 import cvlib
 from cvlib.object_detection import draw_bbox
+import tensorflow as tf
 
 # Title of the website
 st.markdown("<h1 style='text-align: center; color: white;'>Object-Person Detector</h1>",
